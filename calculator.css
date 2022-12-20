@@ -1,0 +1,103 @@
+body{
+    margin:50px;
+    background-color: rgb(189, 99, 99);
+    
+}
+
+.calc-container{
+    margin:auto;
+    max-width:300px;
+    width:100%;
+    border:15px solid;
+    padding:30px;
+    background-color: #b97e11;
+}
+
+.screen{
+    width: 100%;
+    height:50px;
+    background-color: #2bdf4f;
+    color:#438743;
+    padding:10px;
+    font-size:30px;
+    border:5px outset;
+}
+
+.screen{
+    margin: -5px;
+    padding:10px 3px;
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(16, 15, 16);
+}
+
+.buttons{
+    display:inline-block;
+    max-width:390px;
+    height:40px;
+    width:230px;
+}
+
+.buttons li{
+    margin:20px;
+    padding:10px;
+    display:inline-block;
+    margin:auto;
+}
+
+.buttons button{
+    background-color:rgb(8, 6, 5);
+    height:30px;
+    width:30px;
+    margin:auto;
+    color:rgb(237, 244, 238);
+    border:10x solid #40f006;
+    text-align:center;
+}
+
+
+.buttons button:hover{
+    background-color:rgb(240, 12, 12);
+    height:30px;
+    width:30px;
+    margin:auto;
+    color:white;
+    border:2px inset #090457;
+    text-align:center;
+    transition:0.6s ease-in-out;
+}
+
+
+.buttons #equal{
+    background-color:rgb(16, 243, 16);
+    height:30px;
+    width:40%;
+    margin:auto;
+    text-align:center;
+    color:rgb(240, 4, 4);
+    
+}
+
+.buttons #UP, .buttons #DOWN{
+    background-color:rgb(16, 243, 16);
+    height:30px;
+    width:2cm;
+    margin:auto;
+    text-align:center;
+    color:rgb(240, 4, 4);
+    
+}
+
+.message{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+}
+
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:oblique;
+    color:rgb(35, 41, 107);
+    font-size:16px;
+    text-align:center;
+    text-decoration: underline;
+}
